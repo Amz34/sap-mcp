@@ -123,3 +123,7 @@ tests/verify_b1.py      16 end-to-end checks against the B1 mock
 ## License
 
 MIT — see `LICENSE`.
+
+---
+
+Part of [my always-on agent stack](https://github.com/Amz34) · [Awesome Agent Infrastructure](https://github.com/Amz34/awesome-agent-infrastructure) (135 live-checked building blocks).
