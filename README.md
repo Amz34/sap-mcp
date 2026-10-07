@@ -59,6 +59,21 @@ python3 mcp_server_b1.py --http --host 127.0.0.1 --port 8793
 python3 mcp_server.py --stdio
 ```
 
+### Docker
+
+The image runs the same stdio server, so any MCP client — or a hosted builder such as
+Glama — can spawn and introspect it:
+
+```bash
+docker build -t sap-mcp .
+docker run -i --rm \
+  -e SAP_CONFIG_FILE=/config/sap.toml \
+  -v "$PWD/sap.toml:/config/sap.toml:ro" sap-mcp
+```
+
+Connection settings come from `SAP_CONFIG_FILE`; every write stays behind the
+`SAP_WRITE_ENABLED` gate.
+
 Client entries:
 
 ```jsonc
