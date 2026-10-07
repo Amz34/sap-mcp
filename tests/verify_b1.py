@@ -27,7 +27,6 @@ from typing import Any, Callable, Optional
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-import socket  # noqa: E402
 
 import httpx  # noqa: E402
 

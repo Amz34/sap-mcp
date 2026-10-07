@@ -213,7 +213,7 @@ def client_checks() -> None:
             assert not (keys1 & keys2), f"pages overlap: {keys1 & keys2}"
             assert page1["count"] == 25, f"inlinecount={page1['count']}"
             assert page1.get("next"), "no next-page link surfaced"
-            return f"5+5 disjoint of 25, next-link present"
+            return "5+5 disjoint of 25, next-link present"
         finally:
             client.close()
 

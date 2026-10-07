@@ -12,7 +12,7 @@ process env SAP_WRITE_ENABLED=1 before any POST leaves the box (governance gate)
 from __future__ import annotations
 
 import time
-from typing import Any, Optional
+from typing import Optional
 
 from .client import SapODataClient, SapODataError, SapWriteBlocked
 from .config import SERVICES, SapConfig, load_config

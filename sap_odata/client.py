@@ -13,7 +13,7 @@ from __future__ import annotations
 import random
 import time
 from typing import Any, Optional
-from urllib.parse import urlencode, urljoin
+from urllib.parse import urljoin
 
 import httpx
 

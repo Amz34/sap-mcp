@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from typing import Any, Optional
 
-from .client import B1Client, B1Error, B1WriteBlocked
+from .client import B1Client, B1Error
 from .config import ENTITIES, WRITABLE_ENTITIES, B1Config, load_config
 
 __all__ = [
