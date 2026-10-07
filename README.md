@@ -1,5 +1,8 @@
 # sap-mcp — SAP MCP servers (OData + Business One)
 
+[![Amz34/sap-mcp MCP server](https://glama.ai/mcp/servers/Amz34/sap-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Amz34/sap-mcp)
+
+
 Two MCP servers that give an AI agent structured access to SAP data:
 
 | server | target | tools | transport | doc |
